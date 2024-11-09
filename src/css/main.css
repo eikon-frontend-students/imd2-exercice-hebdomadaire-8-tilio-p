@@ -12,3 +12,66 @@ img,
 video {
   display: block;
 }
+
+Body {
+  font-family: Lato;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-top: 50px;
+  padding: 20px;
+  width: 284px;
+  gap: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  align-self: stretch;
+}
+
+.legend {
+  display: flex;
+  flex-direction: column;
+  width: 123px;
+  align-self: stretch;
+}
+
+h2 {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 15px;
+}
+
+button {
+  display: flex;
+  width: 244px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background: #0a003c;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+  align-self: stretch;
+}
+
+.price {
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
